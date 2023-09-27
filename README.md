@@ -1,6 +1,6 @@
  ## 목차
  ### 1. [Kmarket](#Kmarket)
- #### 　1.1. [프로젝트 소개](#👩‍💻-프로젝트-소개)
+ #### 　1.1. [프로젝트 소개](#-프로젝트-소개)
  #### 　1.2. [개발기간](https://github.com/TWGearlgrey/Project2023#-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EA%B0%84)
  #### 　1.3. [멤버구성](https://github.com/TWGearlgrey/Project2023#-%EB%A9%A4%EB%B2%84%EA%B5%AC%EC%84%B1)
  #### 　1.4. [개발환경](https://github.com/TWGearlgrey/Project2023#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD)
