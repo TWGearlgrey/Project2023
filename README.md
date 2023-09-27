@@ -1,27 +1,28 @@
  ## 목차
  ### 1. [Kmarket](#Kmarket)
- #### 　1.1. [프로젝트 소개](#-프로젝트-소개)
- #### 　1.2. [개발기간](#-개발-기간)
- #### 　1.3. [멤버구성](#-멤버구성)
- #### 　1.4. [개발환경](#%EF%B8%8F-개발환경)
- #### 　1.5. [본인 주요 개발 기능](#-본인-주요-개발-기능)
- ##### 　　1.5.A. [메인 페이지](#a-메인-페이지)
- ##### 　　1.5.B. [멤버 페이지](#b-멤버-페이지)
- ##### 　　1.5.C. [상품 페이지](#c-상품-페이지)
- ##### 　　1.5.D. [고객서비스 페이지](#d-고객서비스-페이지)
+  　1-1. **[프로젝트 소개](#-프로젝트-소개)** <br/>
+  　1-2. **[개발기간](#-개발-기간)** <br/>
+  　1-3. **[멤버구성](#-멤버구성)** <br/>
+  　1-4. **[개발환경](#%EF%B8%8F-개발환경)** <br/>
+  　1-5. **[본인 주요 개발 기능](#-본인-주요-개발-기능)** <br/>
+  　　1-5.A. [메인 페이지](#a-메인-페이지) <br/>
+  　　1-5.B. [멤버 페이지](#b-멤버-페이지) <br/>
+  　　1-5.C. [상품 페이지](#c-상품-페이지) <br/> 
+  　　1-5.D. [고객서비스 페이지](#d-고객서비스-페이지)  <br/>
+  　1-6. **[프로젝트를 마치며…](#-프로젝트를-마치며)** <br/><br/>
 
 
 # Project2023
- 2023년도 진행한 프로젝트입니다. 
+ 2023년도 진행한 프로젝트입니다. <br/><br/>
 
 ## Kmarket 
 
 ### 👩‍💻 프로젝트 소개
- 지마켓을 참고하여 만든 쇼핑 사이트입니다.
+ 지마켓을 참고하여 만든 쇼핑 사이트입니다. <br/><br/>
 
 
 ### ⏰ 개발 기간
- 2023.09.11. ~ 2023.09.27.
+ 2023.09.11. ~ 2023.09.27. <br/><br/>
 
 
 ### 👨‍👩‍👧‍👧 멤버구성
@@ -29,7 +30,7 @@
  - 책임 개발자 **[강윤수](https://github.com/lomong7807)** : 프로젝트 git 관리, 업무 분담 계획 수립, 상품 페이지, 상품 구매, 장바구니 기능 구현
  - 개발자 **[한상민](https://github.com/TWGearlgrey)** : 멤버 페이지, 메인 페이지, 상품 리뷰 페이지, 최근 본 상품 기능 구현, 고객서비스(cs) 페이지, 글 보기, 글 작성, 글 수정 구현
  - 개발자 **[강원빈](https://github.com/dkfkr)** : 관리자 페이지 구현
- - 개발자 **[고성우](https://github.com/sungwoo0902)** : 고객서비스(cs) 페이지, 글 목록 구현, 보고서 작성
+ - 개발자 **[고성우](https://github.com/sungwoo0902)** : 고객서비스(cs) 페이지, 글 목록 구현, 보고서 작성 <br/><br/>
 
 
 ### ⚙️ 개발환경
@@ -41,7 +42,7 @@
    javax.mail-1.6.2.jar / jstl-1.2.jar / logback-classic-1.4.11.jar / logback-core-1.4.11.jar /
    mysql-connector-java-8.0.32.jar / slf4j-api-2.0.7.jar
  - **DMBS** : MySQL 8.0
- - **Tool** : Eclipse IDE 2023-06 / Mysql Workbench 8.0.21 / HeidSQL 12.5 / Git 2.41.0 / Github
+ - **Tool** : Eclipse IDE 2023-06 / Mysql Workbench 8.0.21 / HeidSQL 12.5 / Git 2.41.0 / Github <br/><br/>
 
 
 ### 🛠 본인 주요 개발 기능
@@ -65,3 +66,9 @@
     [QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/ViewController.java))** : 게시글의 대분류, 소분류, 작성일, 제목, 내용, 작성자를 각 카테고리에 맞게 출력
  2. **글 쓰기([QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/WriteController.java))** : 글 작성시 대분류 카테고리를 선택시 ajax를 이용해 동적처리하여 소분류 카테고리를 가져옵니다.
  3. **글 수정([QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/ModifyController.java))** : 글 수정시 글 작성과 마찬가지로 대분류 카테고리를 선택시 ajax를 이용해 동적처리하여 소분류 카테고리를 가져옵니다.
+
+### 📑 프로젝트를 마치며…
+```
+프로젝트를 마치며 느낀 점
+혹은 개발 시 어려웠던 점... 그리고 그것을 어떻게 해결해 나갔는지
+```
