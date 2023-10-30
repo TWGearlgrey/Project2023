@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.kr.lotteon.mapper.PointMapper">
+
+    <insert id="insertPoint">
+        INSERT INTO `km_member_point` SET
+                            `uid`= #{uid},
+                            `ordNo`= #{ordNo},
+                            `point`= #{point},
+                            `note`= #{note},
+                            `pointDate`=NOW();
+    </insert>
+
+    <insert id="insertUsedPoint">
+        INSERT INTO `km_member_point` SET
+        `uid`= #{uid},
+        `ordNo`= #{ordNo},
+        `point`= #{point},
+        `note`= #{note},
+        `pointDate`=NOW();
+    </insert>
+
+    <update id="minusMemberPoint">
+        UPDATE `km_member` SET `point`= `point`-#{point} WHERE `uid`=#{uid};
+    </update>
+
+    <sql id="pointSearch">
+        <if test="type1 == 'day'">
+            <![CDATA[AND pointDate >= DATE_SUB(CURDATE(), INTERVAL #{type2} DAY)]]>
+        </if>
+        <if test="type1 == 'month'">
+            <![CDATA[AND DATE_FORMAT(pointDate, '%y-%m') = #{type2}]]>
+        </if>
+        <if test="(type1 != 'day' and type1 != 'month') and type1 != '' and type2 != ''">
+            <![CDATA[AND DATE_FORMAT(pointDate, '%Y-%m-%d') BETWEEN #{type1} AND #{type2}]]>
+        </if>
+    </sql>
+
+    <select id="myPointList">
+        SELECT
+            *,
+            DATE_ADD(pointDate, INTERVAL 1 YEAR) AS expiredDate
+        FROM
+            `km_member_point`
+        WHERE
+            uid = #{uid}
+        <include refid="pointSearch"/>
+        ORDER BY pointDate DESC
+        LIMIT #{pg}, 10;
+    </select>
+
+    <select id="myPointTotal" resultType="java.lang.Integer">
+        SELECT
+            SUM(point)
+        FROM
+            `km_member_point`
+        WHERE
+            uid = '${uid}'
+    </select>
+
+    <select id="myPointCount" resultType="int">
+        SELECT COUNT(*) FROM `km_member_point` WHERE uid = #{uid} <include refid="pointSearch"/>
+    </select>
+
+</mapper>
