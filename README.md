@@ -16,6 +16,6 @@
  ## 3. [HelloWorld]()
 <img src="https://github.com/TWGearlgrey/Project2023/assets/136422034/4ad14516-d3dc-4b3d-9a7e-4cacddce1649" width="50%"/> <br/>
   - 👀프로젝트 소개 : 개발자를 위한 플랫폼 HelloWorld 프로젝트입니다.
-  - 📝프로젝트 개요 : 
+  - 📝프로젝트 개요 : [Click](https://github.com/TWGearlgrey/Project2023/tree/main/HelloWorld#readme)
   - ⏰프로젝트 기간 : 2023.10.31. ~ 2023.12.08.
-  - 💾프로젝트 코드 : 
+  - 💾프로젝트 코드 : [back](https://github.com/TWGearlgrey/Project2023/tree/main/HelloWorld/back) / [front](https://github.com/TWGearlgrey/Project2023/tree/main/HelloWorld/front)
