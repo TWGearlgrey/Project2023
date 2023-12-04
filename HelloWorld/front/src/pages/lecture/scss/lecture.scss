@@ -1,0 +1,22 @@
+p{
+  font-weight: 500;
+  font-family: nanumsquare;
+}
+span{
+  font-weight: 500;
+  font-family: nanumsquare;
+}
+.pagination .page-item.active > .page-link{
+  background-color: transparent;
+}
+.pagination .page-item.active > .page-link:hover{
+  background-color: transparent;
+}
+.pagination .page-item .page-link{
+  border-radius: 0;
+}
+.detailContent{
+  .ql-video{
+    width: 100%;
+  }
+}

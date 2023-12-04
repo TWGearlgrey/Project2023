@@ -1,0 +1,15 @@
+@media screen and (max-width: 991px){
+  .sidebar-collapse .navbar-collapse:before {
+    background: #2CA8FF;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .nav-tabs {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
