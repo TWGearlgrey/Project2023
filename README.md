@@ -10,11 +10,7 @@
   　　1-5.C. [상품 페이지](#c-상품-페이지) <br/> 
   　　1-5.D. [고객서비스 페이지](#d-고객서비스-페이지)  <br/>
   　1-6. **[프로젝트를 마치며…](#-프로젝트를-마치며)** <br/><br/>
-
-
-# Project2023
- 2023년도 진행한 프로젝트입니다. <br/><br/>
-
+   
 ## Kmarket 
 
 ### 👩‍💻 프로젝트 소개
@@ -66,6 +62,7 @@
     [QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/ViewController.java))** : 게시글의 대분류, 소분류, 작성일, 제목, 내용, 작성자를 각 카테고리에 맞게 출력
  2. **글 쓰기([QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/WriteController.java))** : 글 작성시 대분류 카테고리를 선택시 ajax를 이용해 동적처리하여 소분류 카테고리를 가져옵니다.
  3. **글 수정([QNA](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/java/kr/co/kmarket/controller/cs/qna/ModifyController.java))** : 글 수정시 글 작성과 마찬가지로 대분류 카테고리를 선택시 ajax를 이용해 동적처리하여 소분류 카테고리를 가져옵니다.
+<br />
 
 ### 📑 프로젝트를 마치며…
 ```
