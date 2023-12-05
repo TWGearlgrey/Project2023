@@ -1,51 +1,56 @@
-# HelloWorld
-HelloWorld 프로젝트
-
-# react 필요 파일
-- 리액트 쿼리 : npm install @tanstack/react-query
-- 라우터 : npm install react-router-dom@6
-- axios : npm install axios
-- redux : npm install @reduxjs/toolkit react-redux
-- jquery: npm install jquery
-- daum : npm install react-daum-postcode
-- hook-form: npm i react-hook-form
-- 기본 모듈 : npm install
-- env.cmd : npm install env-cmd
-- codemirror : npm i codemirror @codemirror/lang-javascript
-- select : npm install react-select
-- bootstarp : npm install react-bootstrap
-- npm install @fortawesome/react-fontawesome 
-- npm install @fortawesome/fontawesome-svg-core 
-- npm i @fortawesome/free-brands-svg-icons
-- npm i @fortawesome/free-solid-svg-icons 
-- npm i @fortawesome/free-regular-svg-icons
-- npm install react-player
-- quill : npm install react-quill
-- use-long-pressnpm : install use-long-press
-- firebase : npm i firebase
-- quill image resize : npm install quill-image-resize
-- quill image drop : npm i quill-image-drop-module
-- cross-env: npm install cross-env --save-dev
-- drag and drop : npm i --save react-drag-drop-files
-- upload : npm install uploader
-- npm install react-uploader
-- cookie : npm install react-cookie
-- textarea-autosize : npm install react-textarea-autosize
-- eslint : npm install -D eslint
-- prettier : npm i --save-dev prettier
-- .env : npm install dotenv
-
-
-
+<div align=center>
  
-마지막 두개는 정렬모듈임
+ ![HelloWorld](https://github.com/TWGearlgrey/Project2023/blob/main/HelloWorld/front/public/header_logo.png?raw=true)
+ ---
+</div>
 
-터미널 입력
-- npm install npm install @tanstack/react-query npm install react-router-dom@6 npm install axios npm install @reduxjs/toolkit react-redux npm install react-daum-postcode npm i react-hook-form npm install env-cmd npm i codemirror @codemirror/lang-javascript npm install react-select npm install react-bootstrap npm install @fortawesome/react-fontawesome npm install @fortawesome/fontawesome-svg-core npm i @fortawesome/free-brands-svg-icons npm i @fortawesome/free-solid-svg-icons npm i @fortawesome/free-regular-svg-icons npm install react-player npm i --save-dev prettier npm install -D eslint npm install react-quill install use-long-press npm i firebase npm install quill-image-resize npm i quill-image-drop-module npm install cross-env --save-dev npm i --save react-drag-drop-files npm install uploader npm install react-uploader npm install react-cookie npm install react-textarea-autosize npm install dotenv
+### 👩‍💻 프로젝트 소개
+ 개발자를 위한 플랫폼 HelloWorld 프로젝트입니다. <br/><br/>
 
-또는
 
-- npm run install
-# gitignore 파일
-- application.properties
-- build.gradle
+### ⏰ 개발 기간
+ 2023.10.31. ~ 2023.12.08.  <br/><br/>
+
+
+### 👨‍👩‍👧‍👧 멤버구성
+ - 공통 : `Git 관리` `DB 설계`
+ - 책임개발자 **[김상엽](https://github.com/tkddu1591)** : `강의 CRUD` `리뷰 CRUD` `DM(메시지)`
+ - 개발자 **[한상민](https://github.com/TWGearlgrey)** : `로그인/로그아웃` `회원가입` `이용약관` `소셜로그인` `내정보수정`
+ - 개발자 **[강윤수](https://github.com/lomong7807)** : `커뮤니티` `글 CRUD` `댓글 CRUD`
+
+
+### ⚙️ 개발환경
+ - **OS** : `Window10`
+ - **Browser** : `Chorme 117.0.5938`
+ - **Language(Server)** : `Java17` `Spring Boot` `Spring Security` `Spring Data JPA` `MyBatis`
+ - **Language(Client)** : `HTML5` `CSS3` `JavaScript(Es6)` `jQuery3.1` `React.js`
+ - **Library** : `modelmapper-3.1.1.jar` `lombok` `react-router` `react-cookie` `quill` ...
+ - **DMBS** : `MySQL 8.0`
+ - **Tool** : `IntelliJ IDEA 2023-02-04` `Mysql Workbench 8.0.21` `HeidSQL 12.5` `Git 2.41.0` `Github` <br/><br/>
+
+
+### 🛠 본인 주요 개발 기능
+ #### 🔒 로그인/로그아웃
+  - **일반 로그인** <br>
+     : `Spring Security` `JSON Web Token`을 이용한 로그인 기능 구현, accessToken은 LocalStorage, refreshToken은 Cookie와 database에 저장  <br>
+  - **소셜 로그인** <br>
+     : ![Naver](https://img.shields.io/badge/naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakaotalk&logoColor=black) 로그인 기능 구현. 정보만 받은 뒤, 일반 로그인과 같은 방법으로 token 발행  <br>
+  - **로그아웃** <br>
+     : accessToken, refreshToken이 저장된 LocalStorage와 Cookie를 모두 지움
+ #### 🪪 회원가입
+  - **이용약관** <br>
+     : 회원가입 시 이용약관 출력, 모달을 띄워 읽을 시에만 react useState 속성이 변경되어 회원가입 가능. <br>
+  - **일반 회원가입** <br>
+     : 이메일 인증 시에만 회원 가입 가능. 비밀번호 일치하는지 체크, 이메일 중복 체크 <br>
+  - **소셜 회원가입** <br>
+     : 소셜 로그인 시도시, 최초 로그인일 경우 정보 db 저장 후 회원가입 처리 <br>
+ #### ⚙️ 내정보 수정
+  - **이메일 찾기** <br>
+     : 이름, 전화번호를 통해 이메일 찾기 <br>
+  - **비밀번호 변경** <br>
+     : 이메일 인증을 통해 비밀번호 변경, 비밀번호 일치하는지 체크 <br>
+  - **마이 페이지** <br>
+     : 닉네임, 이름, 전화번호 수정 기능 <br>
+
+### 📑 프로젝트를 마치며…
+text...
