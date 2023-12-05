@@ -22,10 +22,20 @@
 ### ⚙️ 개발환경
  - **OS** : `Window10`
  - **Browser** : `Chorme 117.0.5938`
- - **Language(Server)** : `Java17` `Spring Boot` `Spring Security` `Spring Data JPA` `MyBatis`
- - **Language(Client)** : `HTML5` `CSS3` `JavaScript(Es6)` `jQuery3.1` `React.js`
+ - **Language(Server)** :
+   ![Java 17](https://img.shields.io/badge/Java_17-FF9A00?style=flat&logo=java&logoColor=white)
+   ![SpringBoot](https://img.shields.io/badge/SpringBoot_3.1.4-6DB33F?style=flat&logo=springboot&logoColor=white)
+   ![SpringSecurity](https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=springsecurity&logoColor=white)
+   ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat&logoColor=white)
+   ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logoColor=red)
+ - **Language(Client)** :
+   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+   ![JavaScript](https://img.shields.io/badge/JavaScript_Es6-F7DF1E?style=flat&logo=javascript&logoColor=white)
+   ![JQuery](https://img.shields.io/badge/JQuery-0769AD?style=flat&logo=jquery&logoColor=white)
+   ![react](https://img.shields.io/badge/React_18.2.0-263238?style=flat&logo=react)
  - **Library** : `modelmapper-3.1.1.jar` `lombok` `react-router` `react-cookie` `quill` ...
- - **DMBS** : `MySQL 8.0`
+ - **DMBS** : ![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat&logo=mysql&logoColor=white) 
  - **Tool** : `IntelliJ IDEA 2023-02-04` `Mysql Workbench 8.0.21` `HeidSQL 12.5` `Git 2.41.0` `Github` <br/><br/>
 
 
