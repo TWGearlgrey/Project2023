@@ -1,4 +1,8 @@
-## LotteON 
+<div align=center>
+ 
+ ![LotteON](https://github.com/TWGearlgrey/Project2023/blob/main/LotteON/src/main/resources/static/images/header_logo.png?raw=true)
+ ---
+</div>
 
 ### 👩‍💻 프로젝트 소개
  LotteON을 참고하여 만든 쇼핑 사이트입니다. <br/><br/>
