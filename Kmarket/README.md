@@ -1,4 +1,8 @@
-## Kmarket 
+<div align=center>
+ 
+ ![Kmarket](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/src/main/webapp/images/header_logo.png?raw=true)
+ ---
+</div>
 
 ### 👩‍💻 프로젝트 소개
  지마켓을 참고하여 만든 쇼핑 사이트입니다. <br/><br/>
