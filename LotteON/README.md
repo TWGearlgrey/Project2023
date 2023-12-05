@@ -21,7 +21,7 @@
  - **Browser** : `Chorme 117.0.5938`
  - **Language(Server)** : `Java17` `Spring Boot` `Spring Security` `Spring Data JPA` `MyBatis`
  - **Language(Client)** : `HTML5` `CSS3` `JavaScript(Es6)` `jQuery3.1`
- - **Library** : `activation-1.1.1.jar` `cos-05Nov2022.jar` `gson-2.10.1.jar` `javax.mail-1.6.2.jar` `javax.mail-api-1.6.2.jar` `jstl-1.2.jar` `logback-classic-1.4.11.jar` `logback-core-1.4.11.jar` `mysql-connector-java-8.0.32.jar` `slf4j-api-2.0.7.jar` `jackson-core-2.15.3.jar` `modelmapper-3.1.1.jar`
+ - **Library** : `activation-1.1.1.jar` `cos-05Nov2022.jar` `gson-2.10.1.jar` `javax.mail-1.6.2.jar` `javax.mail-api-1.6.2.jar` `jstl-1.2.jar` `logback-classic-1.4.11.jar` `logback-core-1.4.11.jar` `mysql-connector-java-8.0.32.jar` `slf4j-api-2.0.7.jar` `jackson-core-2.15.3.jar` `modelmapper-3.1.1.jar` `lombok` ...
  - **DMBS** : `MySQL 8.0`
  - **Tool** : `IntelliJ IDEA 2023-02-04` `Mysql Workbench 8.0.21` `HeidSQL 12.5` `Git 2.41.0` `Github` <br/><br/>
 
