@@ -5,7 +5,8 @@
 </div>
 
 ### 👩‍💻 프로젝트 소개
- 개발자를 위한 플랫폼 HelloWorld 프로젝트입니다. <br/><br/>
+ 개발자를 위한 플랫폼 HelloWorld 프로젝트입니다. <br>
+ REST API를 기반으로 제작했습니다.<br/><br/>
 
 
 ### ⏰ 개발 기간
@@ -13,10 +14,12 @@
 
 
 ### 👨‍👩‍👧‍👧 멤버구성
- - 공통 : `Git 관리` `DB 설계`
- - 책임개발자 **[김상엽](https://github.com/tkddu1591)** : `강의 CRUD` `리뷰 CRUD` `DM(메시지)`
- - 개발자 **[한상민](https://github.com/TWGearlgrey)** : `로그인/로그아웃` `회원가입` `이용약관` `소셜로그인` `내정보수정`
- - 개발자 **[강윤수](https://github.com/lomong7807)** : `커뮤니티` `글 CRUD` `댓글 CRUD`
+| pos | name | to do |
+| :---: | :---: | :---: |
+| 공통 | - | `Git 관리` `DB 설계` |
+| 책임개발자 | **[김상엽](https://github.com/tkddu1591)** | `강의 CRUD` `리뷰 CRUD` `DM(메시지)` |
+| 개발자 | **[한상민](https://github.com/TWGearlgrey)** | `로그인/로그아웃` `회원가입` `이용약관` `소셜로그인` `내정보수정` |
+| 개발자 | **[강윤수](https://github.com/lomong7807)** | `커뮤니티` `글 CRUD` `댓글 CRUD` |
 
 
 ### ⚙️ 개발환경
