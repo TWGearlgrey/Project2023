@@ -29,7 +29,7 @@
   | 구분 | 설명 |
   | --- | --- |
   | 소개 | 개발자를 위한 플랫폼 HelloWorld 프로젝트입니다. |
-  | 구성 |    ![Java 17](https://img.shields.io/badge/Java_17-FF9A00?style=flat&logo=java&logoColor=white) ![SpringBoot](https://img.shields.io/badge/SpringBoot_3.1.4-6DB33F?style=flat&logo=springboot&logoColor=white) ![SpringSecurity](https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat&logoColor=white) ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logoColor=red) ![react](https://img.shields.io/badge/React_18.2.0-263238?style=flat&logo=react) |
+  | 구성 |    ![Java 17](https://img.shields.io/badge/Java_17-FF9A00?style=flat&logo=java&logoColor=white) ![SpringBoot](https://img.shields.io/badge/SpringBoot_3.1.4-6DB33F?style=flat&logo=springboot&logoColor=white) ![SpringSecurity](https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat&logoColor=white) <br> ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logoColor=red) ![react](https://img.shields.io/badge/React_18.2.0-263238?style=flat&logo=react) |
   | 기간 | 2023.10.31. ~ 2023.12.08. |
   | 소개 | [Click](https://github.com/TWGearlgrey/Project2023/blob/main/Kmarket/README.md) |
   | 코드 | [back](https://github.com/TWGearlgrey/Project2023/tree/main/HelloWorld/back) / [front](https://github.com/TWGearlgrey/Project2023/tree/main/HelloWorld/front) |
