@@ -47,7 +47,7 @@
      : ![Naver](https://img.shields.io/badge/naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakaotalk&logoColor=black) 로그인 기능 구현. 정보만 받은 뒤, 일반 로그인과 같은 방법으로 token 발행  <br>
   - **로그아웃** <br>
      : accessToken, refreshToken이 저장된 LocalStorage와 Cookie를 모두 지움
- #### 🪪 회원가입
+ #### 📩 회원가입
   - **이용약관** <br>
      : 회원가입 시 이용약관 출력, 모달을 띄워 읽을 시에만 react useState 속성이 변경되어 회원가입 가능. <br>
   - **일반 회원가입** <br>
