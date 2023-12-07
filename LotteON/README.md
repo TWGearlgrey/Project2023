@@ -34,6 +34,9 @@
 
 
 ### 🛠 본인 주요 개발 기능
+[![yutube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AIGd08zu5vw)
+
+
  #### A. 메인 페이지
  1. **[메인](https://github.com/TWGearlgrey/Project2023/blob/main/LotteON/src/main/java/co/kr/lotteon/controller/MainController.java)** : DB를 통해서 베스트, 히트, 추천, 최근, 할인 상품 출력 및 카테고리 출력
 
