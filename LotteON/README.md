@@ -8,6 +8,10 @@
  LotteON을 참고하여 만든 쇼핑 사이트입니다. <br/><br/>
 
 
+### 📤 배포
+ [![AWS](https://img.shields.io/badge/AWS-FF9A00?style=flat&logo=amazonaws)](http://52.79.237.168:8080/LotteON/) <br/><br/>
+
+
 ### ⏰ 개발 기간
  2023.09.26. ~ 2023.10.30. <br/><br/>
 
@@ -34,7 +38,7 @@
 
 
 ### 🛠 본인 주요 개발 기능
-[![yutube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AIGd08zu5vw)
+[![yutube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AIGd08zu5vw) 
 
 
  #### A. 메인 페이지
