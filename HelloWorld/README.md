@@ -37,7 +37,7 @@
    ![JavaScript](https://img.shields.io/badge/JavaScript_Es6-F7DF1E?style=flat&logo=javascript&logoColor=white)
    ![JQuery](https://img.shields.io/badge/JQuery-0769AD?style=flat&logo=jquery&logoColor=white)
    ![react](https://img.shields.io/badge/React_18.2.0-263238?style=flat&logo=react)
- - **Library** : `modelmapper-3.1.1.jar` `lombok` `react-router` `react-cookie` `quill` ...
+ - **Library** : ![Redux](https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white) `QueryDSL` `modelmapper-3.1.1.jar` `lombok` `react-router` `react-cookie` `quill` ...
  - **DMBS** : ![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat&logo=mysql&logoColor=white) 
  - **Tool** : `IntelliJ IDEA 2023-02-04` `Mysql Workbench 8.0.21` `HeidSQL 12.5` `Git 2.41.0` `Github` <br/><br/>
 
