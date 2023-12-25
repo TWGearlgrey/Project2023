@@ -79,7 +79,7 @@
 백엔드로 전송한 데이터도 검증을 하여 에러를 예방하였습니다. <br/>
 
 　3️⃣ null exception이 발생할 수 있는 경우 null check <br/>
- 메서드를 실행할 때, null 예외가 발생 할 수 있는 경우 메서드 실행천 nll check 수행 <br/>
+ 메서드를 실행할 때, null 예외가 발생 할 수 있는 경우 메서드 실행천 null check 수행 <br/>
 
 　4️⃣ 들어갈 값들이 정형화 된 경우 enum class 사용. <br/>
 ROLE이나 TYPE과 같이 들어갈 값이 정해져 있는 경우 enum class를 통해 에러를 예방하였습니다.<br/>
